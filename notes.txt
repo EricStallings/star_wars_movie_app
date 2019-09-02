@@ -1,0 +1,20 @@
+Notes:
+
+1. This was originally in HOME.EJS: 
+
+    <!-- <h1>This is the template for the home page</h1>
+    The following line is Ruby on Rails, but it allows us to pass in variables into our HTML, AND use JS logic!
+    <p><%= title %></p>
+    <ul>
+        <% for (let i = 0; i < movies.length; i++){ %>
+        <li><%= movies[i] %></li>
+        <% } %>
+
+    </ul> -->
+
+2. In APP.JS: 
+
+> The order of the routes matters! If you were to place your 404 route handler at the very top, then ALL requests would return a 404: Page Not Found status. 
+
+Break for dinner. 
+Left off at 33:48 after loading images into the "images" folder. 
